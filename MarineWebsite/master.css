@@ -1,0 +1,349 @@
+html {
+	background:url(images/turtle.jpg);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+    height: 100%;
+    background-repeat: no-repeat;
+	font-family: "Merriweather";
+}
+
+ul {
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	color: #666;
+	background-color: rgba(0,0,155, 0.35);
+
+	top: 0;
+	width: 100%;	
+}
+
+li {
+	overflow: hidden;
+	float: right;
+	text-align: center;
+}
+
+li a{
+	display: block;
+	color: white;
+	padding: 8px;
+	width: 100px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background: ;
+	color: white;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+.box {
+	width: 1300px;
+	height: 600px;
+	margin: 0 auto;
+	padding: 40px;
+	transform: translateY(40px);
+	background: rgba(0,0,0,.45);
+
+}
+
+/* Style the tab */
+div.tab {
+	transform: translateY(20px);
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background:url(images/blueocean.jpg);
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+	overflow-x: scroll;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: 40px;
+	background: rgba(0,0,0,.30);
+	height: 640px;
+}
+
+.container {
+	text-align: center;
+}
+
+#Jawless {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/Lamprey-by-Jeremy-Monroe.jpg);
+    background-position: 100% 55%;
+    background-size: 100%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5); 
+}
+
+#Jawless:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Cartilaginous {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/cartilaginous.jpg);
+    background-position: 100% 50%;
+    background-size: 100%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5); 
+}
+
+#Cartilaginous:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Bony {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/bony.jpg);
+    background-position: 100% 40%;
+    background-size: 100%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5); 
+}
+
+#Bony:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Cnidarians {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/cnidarians.jpg);
+    background-position: 50% 60%;
+    background-size: 100%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Cnidarians:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Echinoderms {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/echinoderms.jpg);
+    background-position: 100% 30%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Echinoderms:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Hemicordates {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/hemicordates.jpg);
+    background-position: 100%0%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Hemicordates:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Lophophorates {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/lophophorates.jpg);
+    background-position: 100% 50%;
+    background-size: 100%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Lophophorates:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Mollusks {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/mollusks.jpg);
+    background-position: 100% 50%;
+    background-size: 100%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Mollusks:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Sponges {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/sponges.jpg);
+    background-position: 100% 50%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Sponges:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Worms {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/worms.jpg);
+    background-position: 100% 50%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Worms:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Cetaceans {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/cetaceans.jpg);
+    background-position: 100% 50%;
+    background-size: 100%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Cetaceans:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+    background-size: 100% 200%;
+	height: 400px;
+}
+
+#Pinnipeds {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/pinnipeds.jpg);
+    background-position: 50% 60%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Pinnipeds:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Sirenians {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/sirenians.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Sirenians:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
+
+#Seabirds {
+	overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.4);
+    background: url(images/seabirds.jpg);
+    background-position: 50% 50%;
+    width: 1450px;
+    height: 200px;
+    margin: 4px;
+    border-left: 7px solid rgba(0,0,200, .5);  
+}
+
+#Seabirds:hover {
+	border-left: 7px solid rgba(0,200,0, .5);
+	height: 400px;
+}
